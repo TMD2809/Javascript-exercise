@@ -1,4 +1,4 @@
-//1. Tập đặt tên biến với từ khóa `let` `const` càng nhiều càng tốt, sử dụng các kiểu dữ liệu đã học như null, undefined, number, string, boolean
+//1. Tập đặt tên biến với từ khóa `let` `const` càng nhiều càng tốt, sử dụng các kiểu dữ liệu đã học như null, undefined, number, string, boolean.
 // #null
 {
   let myName = null;
@@ -35,24 +35,24 @@
   console.log(iAmAnEngineer);
   console.log(!iAmAnEngineer);
 }
-// 2. Tạo ra random số từ `100 - 1000`
+// 2. Tạo ra random số từ `100 - 1000`.
 {
   let start = 100;
   let end = 1000;
   console.log(Math.floor(Math.random() * (end - start) + start));
 }
-// 3. Cho 1 số là `1.234567` dùng các kíen thức đã học để làm tròn thành `1.2345`
+// 3. Cho 1 số là `1.234567` dùng các kíen thức đã học để làm tròn thành `1.2345`.
 {
   let num = 1.234567;
   console.log(Math.floor(num * 10000) / 10000);
   console.log(Number(num.toFixed(4)));
 }
-// 4. Viết 1 đoạn code ví dụ có Hoisting
+// 4. Viết 1 đoạn code ví dụ có Hoisting.
 {
   console.log(Hoisting);
   var Hoisting = true;
 }
-// 5. Viết 1 đoạn code ví dụ có Temporal Dead Zone
+// 5. Viết 1 đoạn code ví dụ có Temporal Dead Zone.
 {
   console.log(TDZ);
   let TDZ = "Example for TDZ";

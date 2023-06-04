@@ -29,7 +29,7 @@
 // - false + true -> 0 + 1 ->1
 // - 'true' + false -> 'truefalse'
 // - !!'0' + Boolean('1') -> 1+1->2
-// - !'false' + 9 -> 0 + 9=9
+// - !'false' + 9 ->
 // - 'js' + +'59' ->'js59'
-// - 'evondev' + -'frontend' -> 'evondevNaN'
+// - 'evondev' + -'frontend' ->
 // - true == 'true' ->
